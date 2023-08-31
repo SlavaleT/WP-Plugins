@@ -1,0 +1,188 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    color: var(--almost-black, #333);
+    background: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 552px;
+    margin: 0 auto;
+}
+
+.header_hr, .footer_hr {
+    border: none;
+    height: 1px;
+    margin: 0;
+    background: var(--super-light-gray, #c7c7c7);
+}
+
+/* Header start */
+.header_container {
+    padding-top: 19px;
+}
+
+.header {
+    width: 100%;
+}
+
+.header_logo {
+    display: block;
+    max-width: 50px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.header_logo_link {
+    max-height: 42px;
+}
+
+/* Header end */
+
+/* Body start */
+.body_container {
+    padding-top: 20px;
+}
+
+.body_title {
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--almost-black, #1C1E23);
+    margin-bottom: 12px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 276px;
+    height: 436px;
+    flex-shrink: 0;
+    padding: 32px 8px 16px 8px;
+    margin-bottom: 24px;
+
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card_img {
+    margin-bottom: 9px;
+    transition: 0.2s;
+}
+
+.card_img:hover {
+    transform: scale(1.04);
+}
+
+.card_picture {
+    width: 260px;
+    border-radius: 7px;
+}
+
+.card_title {
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    margin-bottom: 1px;
+}
+
+.card_price {
+    color: #489DFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+
+.card_button {
+    padding: 16px 50px;
+    border: 0;
+    border-radius: 7px;
+    background: var(--color-primary, #489DFF);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    transition: 0.2s;
+}
+
+.card_button:hover, .card_button:focus {
+    background: var(--color-primary, #387dcc);
+    transform: scale(1.05);
+}
+
+.card_button:active {
+    transform: scale(0.95);
+}
+
+/* Body end */
+
+/* Footer start */
+.footer_container {
+    padding-bottom: 24px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer_hr {
+    margin-bottom: 24px;
+}
+
+.footer_authors, .footer_description {
+    color: #525F7F;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.footer_mail {
+    color: var(--color--primary, #489DFF);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer_mail:hover {
+    color: var(--color--primary, #285f9d);
+    text-decoration: underline;
+}
+
+.soc_icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.soc_icon {
+    margin-right: 8px;
+}
+
+.soc_icon:last-child {
+    margin-right: 0px;
+}
+
+/* Footer end */
